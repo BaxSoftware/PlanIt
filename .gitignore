@@ -234,3 +234,5 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+PlanIt/PlanIt/PlanIt.Droid/Resources/drawable/
+PlanIt/PlanIt/PlanIt.iOS/Resources/
