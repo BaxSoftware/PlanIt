@@ -5,8 +5,8 @@
              BackgroundColor="White">
   <ContentPage.Content>
     <RelativeLayout x:Name="loginLayout">
-      <BoxView x:Name="loginLogoImage"
-               Color="Blue" />
+      <Image x:Name="loginLogoImage"
+             Source="logonavy.png" />
 
       <Label x:Name="loginLogoName"
              Text="PlanIt"
@@ -16,6 +16,27 @@
              HorizontalTextAlignment="Center"
              RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.4}"
              RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
+      
+      <Button Text="Login with Facebook"
+             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.2}"
+             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}"
+             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.6}"
+             RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.1}" />
+
+      <Label Text="OR"
+             TextColor="#000000"
+             FontSize="30"
+             FontAttributes="Bold"
+             HorizontalTextAlignment="Center"
+             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.6}"
+             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
+
+      <Button Text="Login with Google"
+             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.2}"
+             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.7}"
+             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.6}"
+             RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.1}" />
+
     </RelativeLayout>
   </ContentPage.Content>
 </ContentPage>
