@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanIt.Droid", "PlanIt\PlanIt.Droid\PlanIt.Droid.csproj", "{EA38B3ED-6FEA-4195-BF6B-06988E7DD0EC}"
 EndProject
@@ -15,7 +15,11 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PlanIt", "PlanIt\PlanIt\Pla
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PlanIt\PlanIt\PlanIt.projitems*{ea38b3ed-6fea-4195-bf6b-06988e7dd0ec}*SharedItemsImports = 4
+		PlanIt\PlanIt\PlanIt.projitems*{35dc89f6-224b-48f3-9e1e-a85967dc9404}*SharedItemsImports = 4
+		PlanIt\PlanIt\PlanIt.projitems*{bd5d8c53-512a-4d74-ab47-2958eb5982b9}*SharedItemsImports = 4
 		PlanIt\PlanIt\PlanIt.projitems*{05665868-f25c-4109-b8d7-a5fc50b74e50}*SharedItemsImports = 13
+		PlanIt\PlanIt\PlanIt.projitems*{6d653ca2-b4e7-4f59-841f-b3eb89c31f25}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
